@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Luis González</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/image-profile.jpeg"
+              alt="Luis González"
+              width="100"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Luis González">Luis González</h1>
+
+            <p class="title">Certified QA Automation Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:luis0270@gmail.com" class="contact-link"
+                  >luis0270@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Heredia, Costa Rica</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/luis-gonzález-flores-129572129"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <!-- If it is enabled then uncomment the portfolio related code and the script line #67 -->
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am an enthusiastic QA professional with over six years of
+              experience in both manual and automation testing, always striving
+              to elevate system and process quality. My technical expertise
+              includes working with a range of tools such as Cypress,
+              Playwright, WebDriverIO, and Selenium. Additionally, I have
+              designed and maintained API testing frameworks using Java and
+              Kotlin.
+              <br /><br />
+              I hold certifications including Selenium 4 Tester, ISTQB Test
+              Automation Engineer, and Microsoft AZ-900, among others.
+              Throughout my career, I’ve had the opportunity to lead QA teams,
+              fostering collaboration and driving quality-focused outcomes.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">My experience includes:</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-automation.png"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">API & UI Automation</h4>
+
+                  <p class="service-item-text">
+                    Developed and maintained robust automation frameworks for
+                    both UI and API testing. Integrated these frameworks into
+                    CI/CD pipelines and test management tools for extensive
+                    reporting and continuous testing.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-performance.png"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Performance Testing</h4>
+
+                  <p class="service-item-text">
+                    Performed performance testing to assess application
+                    responsiveness and scalability. Used tools like JMeter and
+                    LoadRunner to simulate loads and identify performance
+                    issues.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-cloud.png"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Cloud</h4>
+
+                  <p class="service-item-text">
+                    Leveraged Google Cloud Platform (GCP) for manual testing and
+                    troubleshooting. Developed a flexible, parameterized
+                    on-demand pipeline in Azure for customizable test case
+                    execution.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-testing.png"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Manual Testing</h4>
+
+                  <p class="service-item-text">
+                    Conducted thorough manual testing for both UI and API
+                    functionalities. Utilized tools such as Postman for API
+                    testing, JIRA for defect tracking, and Browser Developer
+                    Tools.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Catherine Reynolds"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Catherine Reynolds
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I worked with Luis in the same scrum team in the past year
+                      to support a major transformation initiative, and I'm very
+                      thankful that I got to work with Luis on the same team.
+                      Luis always goes above and beyond. He has a very curious
+                      mind, which is a perfect quality in a QA engineer. I can't
+                      count how many times he's brought up a scenario or a test
+                      case that I haven't thought about perviously (which then
+                      in turn saved us from a lot of headache down the road),
+                      and Luis has been a key player in our scrum team, and in
+                      our product's success. Luis, thank you so much for
+                      supporting multiple projects in our team and I look
+                      forward to all the accomplishments you are going to
+                      achieve this year and many more years to come!
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Charles Bloodworth"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Charles Bloodworth
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I am writing this letter to recommend Luis Gonzalez Flores
+                      for any future opportunities that may come his way. As
+                      Director of Application Development at Asurint, I had the
+                      privilege of working with Luis as both a Software
+                      Development Engineer in Test (SDET) and a Quality
+                      Assurance Tester for over a year. Luis has been a
+                      significant asset to our team, not only for his strong
+                      testing skills but also for his expertise in test
+                      automation. As an SDET, Luis has played a critical role in
+                      designing and developing our test automation framework. He
+                      has helped write a significant number of automated
+                      regression tests that interface directly with our API
+                      using cucumber. His work has enabled us to detect issues
+                      quickly and accurately, improving our overall product
+                      quality and reducing time to market. Luis is also a force
+                      for change and an amazing mentor. He has onboarded at
+                      least 4 new resources, providing them with guidance and
+                      support as they learn the ropes. His positive attitude and
+                      willingness to help have made a significant impact on our
+                      team's morale and productivity. As both an SDET and a
+                      Quality Assurance Tester, Luis executed complex testing
+                      that required a deep understanding of our business domain.
+                      He collaborated effectively with developers, business
+                      analysts, and business operations to ensure that our
+                      products met the highest standards of quality and
+                      performance. Luis has consistently demonstrated a strong
+                      work ethic and dedication to his work, always going above
+                      and beyond to ensure that our team's goals were met. In
+                      summary, I strongly recommend Luis Gonzalez Flores for any
+                      future roles he may pursue. His expertise in software
+                      development and test automation, commitment to mentorship,
+                      and dedication to his work make him an excellent candidate
+                      for any team. If you have any further questions or require
+                      any additional information, please do not hesitate to
+                      contact me.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-james.avif"
+                      alt="James Bambrick"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    James Bambrick
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I wanted to the take the time to recognize the excellent
+                      work of Luis Gonzalez. Luis has been assigned to the drug
+                      testing project at Asurint, which is a very complex from a
+                      requirements standpoint. Luis was given the set of logic
+                      and sample data provided, then Luis developed a great set
+                      of test scenarios and worked together with other team
+                      members to make sure the test data resulted in tested the
+                      specific test scenario. We have performed 5 sets of
+                      testing with the scenarios Luis developed and have seen
+                      significant improvement from defects identified and fixed
+                      with each iteration. Luis’s set of test cases has been
+                      invaluable. Additionally, Luis has asked in depth
+                      questions when presented with the logic and sample data
+                      which increased his level of understanding and value to
+                      the project. Lastly, Luis goes the extra mile to
+                      understand the root cause when a test does not work as
+                      expected by performing database queries to follow the
+                      logic and ensure the system is working properly not only
+                      from a User Interface, but also from a back-end database
+                      perspective. I would welcome the opportunity to work with
+                      Luis again on future projects.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Mariela Navarro"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Mariela Navarro
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Luis has demonstrated tremendous skills as QA Automation
+                      Engineer, he always has the right questions and he also
+                      provides great input to achieve the QA goals with new
+                      initiatives. His excellent work has been noticed by the
+                      client and his peers. Per the client, he knows when to
+                      push back to stop them from cutting corners, he is an
+                      efficient tester and hardly ever needs more time than he
+                      estimates. Luis was able to learn and understand the a
+                      complicated client business logic in a short time, which
+                      has been evident in the quality of his delivery. He is
+                      perceived as great team player by his peers. He has shown
+                      a very positive attitude despite the erratic Asurint
+                      project and all the challenges presented duringthe last
+                      year and he is known for bringing solutions to the table.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title></h4>
+                <div data-modal-text>
+                  <p></p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="https://www.agilent.com/">
+                  <img
+                    src="./assets/images/logo-agilent.svg"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://www.ford.com/">
+                  <img src="./assets/images/logo-ford.svg" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://asurint.com/">
+                  <img
+                    src="./assets/images/logo-asurint.svg"
+                    alt="asurintlogo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://www.equifax.com/">
+                  <img
+                    src="./assets/images/logo-equifax.svg"
+                    alt="equifaxlogo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Professional Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Gorilla Logic - QA Automation Engineer
+                </h4>
+
+                <span>Oct. 2021 — Currently</span>
+
+                <p class="timeline-text">
+                  At Gorilla, I have been able to boost my QA automation and
+                  leadership skills. I have maintained two frameworks; one is an
+                  API framework built with Kotlin, Cucumber, and GraphQL, and
+                  another one is a UI framework built with Cypress. I have
+                  created frameworks from scratch using Playwright and
+                  WebDriverIO. Part of my duties have included providing
+                  coaching to other QA members of my team as well as QA folks
+                  within Gorilla Logic.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Equifax - Automation Engineer
+                </h4>
+
+                <span>Oct. 2019 — Jun. 2021</span>
+
+                <p class="timeline-text">
+                  I did functional, non-functional, manual, and automation
+                  testing. I worked on challenging projects that helped the
+                  company to achieve the planned goals, saving millions of
+                  dollars. I also provided production support to identify the
+                  root cause of issues.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Fuzionsoft - QA Analyst</h4>
+
+                <span>June. 2017 — Sept. 2019</span>
+
+                <p class="timeline-text">
+                  I did multiple QA duties; I performed functional and
+                  non-functional testing. I helped the development team with
+                  their deployments and provided assistance to troubleshoot prod
+                  issues when required. Finally, I automated QA tasks to save
+                  95% of the time required to set up our test environments.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  A4Q Certified Selenium 4 Tester Foundation
+                </h4>
+                <span>July, 2024</span>
+                <p class="timeline-text">
+                  I achieved the Certified Selenium 4 Tester Foundation
+                  certification from A4Q, highlighting my expertise in Selenium
+                  4 and test automation best practices.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">AZ-900 Certification</h4>
+                <span>Apr, 2024</span>
+                <p class="timeline-text">
+                  I obtained the Microsoft Certified: Azure Fundamentals
+                  (AZ-900) certification, validating my foundational knowledge
+                  of cloud concepts and Microsoft Azure services.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Agile Tester</h4>
+                <span>May, 2023</span>
+                <p class="timeline-text">
+                  I hold the ISTQB Agile Tester certification, which
+                  underscores my proficiency in agile testing practices and
+                  methodologies.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Test Automation Engineer</h4>
+                <span>Nov, 2022</span>
+                <p class="timeline-text">
+                  I attained the ISTQB Test Automation Engineer certification,
+                  affirming my expertise in test automation methodologies and
+                  best practices.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">PenTest+</h4>
+                <span>Jan, 2022</span>
+                <p class="timeline-text">
+                  I acquired the CompTIA Pentest+ certification, demonstrating
+                  my expertise in penetration testing and cybersecurity
+                  practices.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Computer Technologies Bachelors Degree
+                </h4>
+                <span>2014 - 2017</span>
+                <p class="timeline-text">
+                  I accomplished my bachelor's degree with honors in Computer
+                  Technologies from the University of Costa Rica.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Familiar with</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Cypress</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WebDriverIO</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Playwright</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Selenium</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CI/CD</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Manual Testing</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Test Management & Planning</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO: If it is enabled then uncomment the line 67 of the scripts file
+      -->
+
+        <!-- <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Testing Manual</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Automation</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Performance</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Testing Manual</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Automation</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Performance</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="automation"
+              >
+                <a href="https://underc0de.org">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Underc0de</h3>
+
+                  <p class="project-category">Automation</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="automation"
+              >
+                <a href="https://underc0de.org">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Underc0de</h3>
+
+                  <p class="project-category">Automation</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Orizon</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Brawlhalla</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">DSM.</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MetaSpark</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article> -->
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7858.447880725021!2d-84.12704140536603!3d9.998352060427777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0faddaded66bd%3A0x2527e99d1a1e0bdf!2sHeredia%20Province%2C%20Heredia!5e0!3m2!1sen!2scr!4v1725830794462!5m2!1sen!2scr"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
